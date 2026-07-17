@@ -234,7 +234,7 @@ class _GameDetailScreenState extends State<GameDetailScreen> {
           style: FilledButton.styleFrom(
             backgroundColor: AppColors.primary,
             foregroundColor: Colors.white,
-            disabledBackgroundColor: AppColors.primaryDark,
+            disabledBackgroundColor: AppColors.primary.withOpacity(0.4),
             padding: const EdgeInsets.symmetric(vertical: 16),
             textStyle: const TextStyle(
                 fontSize: 17, fontWeight: FontWeight.w700, letterSpacing: 0.5),
